@@ -58,7 +58,7 @@ a{
 }
 
 .section{
-    padding: 7rem 10%;
+    padding: 7rem 5%;
     width: 100%;
 }
 
@@ -148,7 +148,12 @@ a{
     color: var(--grey1);
     margin: auto 2rem;
 }
-
+.black-title,.black-i{
+    color: var(--grey1);
+}
+.u-black{
+    background-color: var(--grey1);
+}
 
 .tools-grid{
     display: flex;
@@ -178,6 +183,114 @@ a{
     color: var(--grey1);
     margin-top: 1rem;
     font-size: 1.8rem;
+}
+
+.project-grid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.work{
+    cursor: pointer;
+    position: relative;
+    width: 40rem;
+    height: 25rem;
+    margin:2rem;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.work-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-green);
+    opacity: 0;
+    border-radius: 1rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+    transition: opacity 400ms ease;
+}
+
+.overlay:hover{
+    opacity: .9;
+}
+
+.project-title{
+    color: var(--white);
+    padding: 5rem;
+    text-align: center;
+}
+
+.contact{
+    background-color: var(--grey1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .tools-title{
+    transform: scale(.9);
+}
+
+.contact-links{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.contact-links .underline{
+    background-color: var(--white);
+}
+.contact-links a{
+    padding: 0 2rem;
+}
+
+.contact-links i{
+    color: var(--white);
+    font-size: 3rem;
+}
+
+footer{
+    background-color: var(--darkgrey);
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+@media only screen and (max-width: 1460px){
+    
+.section{
+    padding: 7rem 5%;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 866px){
+    .work{
+        width: 45rem;
+        height: 28rem;
+    }
 }
 
 @media only screen and (max-width: 600px){

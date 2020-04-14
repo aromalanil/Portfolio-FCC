@@ -16,17 +16,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!------------ Linking CSS Ends ----------->
 
+    <!-------------- Linking JS -------------->
+    <script defer src="./src/js/script.js"></script>
+
 </head>
 
 <body>
 
     <!--------- Navigation Bar Starts --------->
     <nav class="nav-bar" id="navbar">
-        <h3 class="logo">AROMAL ANIL</h3>
+        <h3 class="logo">AROMAL&nbsp;ANIL</h3>
 
         <ul class="nav-links">
             <li><a href="#welcome-section" class="nav-link">ABOUT</a></li>
-            <li><a href="#projects" class="nav-link">WORK</a></li>
+            <li><a href="#tools" class="nav-link">TOOLS</a></li>
+            <li><a href="#projects" class="nav-link">PROJECTS</a></li>
             <li><a href="" class="nav-link">CONTACT</a></li>
         </ul>
     </nav>
@@ -52,41 +56,135 @@
         <div class="tools-title-div">
             <h1 class="tools-title">MY TOOLS</h1>
             <div class="underlines">
-                <div class="underline u-black"></div>
+                <div class="underline"></div>
                 <i id="star" class="fa fa-star"></i>
-                <div class="underline u-black"></div>
+                <div class="underline"></div>
             </div>
         </div>
 
         <div class="tools-grid">
             <div class="tool-block">
-                <img src="./src/img/tools/js-logo.svg" alt="Javascript" class="tool-img">               
+                <img src="./src/img/tools/js-logo.svg" alt="Javascript" class="tool-img">
             </div>
             <div class="tool-block">
-                <img src="./src/img/tools/html-logo.svg" alt="HTML" class="tool-img">             
+                <img src="./src/img/tools/html-logo.svg" alt="HTML" class="tool-img">
             </div>
             <div class="tool-block">
-                <img src="./src/img/tools/css-logo.svg" alt="CSS" class="tool-img">                
+                <img src="./src/img/tools/css-logo.svg" alt="CSS" class="tool-img">
             </div>
             <div class="tool-block">
-                <img src="./src/img/tools/react-logo.svg" alt="React" class="tool-img">                
+                <img src="./src/img/tools/react-logo.svg" alt="React" class="tool-img">
             </div>
 
             <div class="tool-block">
-                <img src="./src/img/tools/vscode-logo.svg" alt="VSCode" class="tool-img">                
+                <img src="./src/img/tools/vscode-logo.svg" alt="VSCode" class="tool-img">
             </div>
             <div class="tool-block">
-                <img src="./src/img/tools/xd-logo.svg" alt="Adobe XD" class="tool-img">                
+                <img src="./src/img/tools/xd-logo.svg" alt="Adobe XD" class="tool-img">
             </div>
             <div class="tool-block">
-                <img src="./src/img/tools/android-studio-logo.svg" alt="Android Studio" class="tool-img">                
+                <img src="./src/img/tools/android-studio-logo.svg" alt="Android Studio" class="tool-img">
             </div>
         </div>
     </section>
     <!--------- My Tools Section Ends---------->
 
+    <section id="projects" class="section">
+        <div class="tools-title-div">
+            <h1 class="tools-title black-title">PROJECTS</h1>
+            <div class="underlines">
+                <div class="underline u-black"></div>
+                <i id="star-black" class="fa fa-star black-i"></i>
+                <div class="underline u-black"></div>
+            </div>
+        </div>
 
-    <script src="./src/js/script.js"></script>
+        <div class="project-grid">
+            <a target="_blank" href="https://github.com/aromalanil/all_in_one">
+                <div class="work">
+                    <img src="./src/img/projects/all_in_one.png" alt="" class="work-img">
+                    <div class="overlay">
+                        <h2 class="project-title">All In One</h2>
+                    </div>
+                </div>
+            </a>
+
+            <a target="_blank" href="https://github.com/aromalanil/apple-card-concept">
+            <div class="work">
+                <img src="./src/img/projects/apple-card.png" alt="" class="work-img">
+                <div class="overlay">
+                    <h2 class="project-title">Apple Card Demo</h2>
+                </div>
+            </div>
+            </a>
+            <a target="_blank" href="https://github.com/aromalanil/javascript-documentation">
+                <div class="work">
+                    <img src="./src/img/projects/js-documentation.png" alt="" class="work-img">
+                    <div class="overlay">
+                        <h2 class="project-title">Javascript Documentation</h2>
+                    </div>
+                </div>
+            </a>
+            <a target="_blank" href="https://github.com/aromalanil/lumidex">
+                <div class="work">
+                    <img src="./src/img/projects/lumidex.jpg" alt="" class="work-img">
+                    <div class="overlay">
+                        <h2 class="project-title">Company Landing Page</h2>
+                    </div>
+                </div>
+            </a>
+            <a target="_blank" href="https://github.com/aromalanil/srms">
+                <div class="work">
+                    <img src="./src/img/projects/srms.jpg" alt="" class="work-img">
+                    <div class="overlay">
+                        <h2 class="project-title">SRMS</h2>
+                    </div>
+                </div>
+            </a>
+            <a target="_blank" href="https://github.com/aromalanil/tic-tac-toe">
+                <div class="work">
+                    <img src="./src/img/projects/tic_tac_toe.jpg" alt="" class="work-img">
+                    <div class="overlay">
+                        <h2 class="project-title">Tic Tac Toe</h2>
+                    </div>
+                </div>
+            </a>
+            <a target="_blank" href="https://github.com/aromalanil/whack-a-mole">
+                <div class="work">
+                    <img src="./src/img/projects/whack_a_mole.webp" alt="" class="work-img">
+                    <div class="overlay">
+                        <h2 class="project-title">Whack A Mole</h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="contact section">
+        <div class="tools-title-div">
+            <h1 class="tools-title">CONTACT</h1>
+            <div class="underlines">
+                <div class="underline"></div>
+                <div class="underline"></div>
+            </div>
+        </div>
+        <div class="contact-links">
+            <a id="profile-link" target="_blank" href="https://github.com/aromalanil"><i class="fa fa-github"></i></a>
+            <a target="_blank" href="https://facebook.com/aromal.anil.369"><i class="fa fa-facebook-f"></i></a>
+            <a target="_blank" href="https://twitter.com/aromalanil5"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="mailto:aromalanilkannan@gmail.com"><i class="fa fa-envelope-o"></i></a>
+            <a target="_blank" href="https://stackoverflow.com/users/story/12292984"><i
+                    class="fa fa-stack-overflow"></i></a>
+            <a target="_blank" href="https://instagram.com/lina.lamora"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" href="https://dribbble.com/aromalanil"><i class="fa fa-dribbble"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ by Aromal Anil</p>
+    </footer>
+
+
 </body>
 
 </html>
